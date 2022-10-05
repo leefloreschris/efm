@@ -150,8 +150,10 @@ ul {
     text-align: center;
   }
 
-  .quote {
-    width: 75%;
+  .quote .container {
+    margin: 25px 25px;
+    max-width: 75%;
+    font-size: 32px;
   }
 
  .icon-socials {
@@ -165,15 +167,6 @@ ul {
 
 }
 
-.quote-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 35px 30px;
-  display: flex;
-  flex-direction: column;
-
-}
-
 .quote {
   font-size: 38px;
   background: #0a51cc;
@@ -182,7 +175,16 @@ ul {
   font-style: italic;
 }
 
-.quote-container h3 {
+.quote .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.quote .container h3 {
   display: flex;
   justify-content: end;
 }
@@ -195,10 +197,6 @@ ul {
 .icon-socials img {
   max-width: 100px;
   max-height: 100px;
-}
-
-.socials .container {
-
 }
 
 .icon-socials {
